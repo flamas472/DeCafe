@@ -44,8 +44,16 @@ img {
         display: flex;
         justify-content: space-between;
     }
+
     .media-pantalla {
         flex: 0 0 calc(50% - 1rem);
+    }
+
+    .tercio-pantalla {
+        flex: 0 0 calc(33.33% - 1rem);
+    }
+    .dostercios-pantalla {
+        flex: 0 0 calc(66.66% - 1rem);
     }
 }
 
@@ -185,6 +193,7 @@ img {
     list-style: none;
 }
 .curso {
+    padding-top: 3rem;
     padding-bottom: 3rem;
     border-bottom: 2px solid #e1e1e1;
 }
@@ -197,7 +206,8 @@ img {
     font-weight: 700;
     font-size: 2rem;
 }
-.curso p span {
+.curso p span,
+.curso p.descripcion {
     font-weight: 400;
 }
 
