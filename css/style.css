@@ -38,6 +38,17 @@ img {
     max-width: 100%;
 }
 
+/* Grid */
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .media-pantalla {
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
+
 /* Utilidades */
 .centrar-texto {
     text-align: center;
